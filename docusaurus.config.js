@@ -16,7 +16,7 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'pepe', // Usually your GitHub org/user name.
+  organizationName: 'AntonIXO', // Usually your GitHub org/user name.
   projectName: 'octusbridge-guide', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
@@ -57,7 +57,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'Guide',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -69,9 +69,9 @@ const config = {
             position: 'left',
             label: 'Tutorial',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: 'https://devpins.org', label: 'My site', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/AntonIXO/octusbridge-guide',
             label: 'GitHub',
             position: 'right',
           },

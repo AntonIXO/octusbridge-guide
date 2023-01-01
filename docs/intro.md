@@ -5,7 +5,8 @@ sidebar_position: 1
 # OctusBridge deployment guide
 
 Requirements: NodeJS(for deployment tools), Python(for ansible), instances for relayers and frontend.
-Relayers takes up to 200 GB of disk.
+Relayers may take up to 200 GB of disk.
+We are assuming that you use public testnet endpoints.
 
 
 1. Clone files repo: git clone https://github.com/AntonIXO/octusbridge_deploy_files.git **--recursive**
