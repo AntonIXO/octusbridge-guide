@@ -33,3 +33,45 @@ And add "**--lib ~/.everdev/solidity/stdlib_sol.tvm**" after compile word in thi
 5. Build contarcts
 
 > npx locklift build --config ./locklift.config.js
+
+We have to deploy:
+1. Bridge TIP3 Token
+2. WEVER converter
+3. Proxy
+3. DAO
+4. Staking root
+5. ethTonEventConfig
+6. tonEthEventConfig
+7. Bridge
+
+Set up events in Staking config!
+
+Staking root:
+Reqires: 
+Bridge token root
+Dao root
+ethTonEventConfig
+tonEthEventConfig
+Settings:
+
+DAO:
+Reqires:
+Settings:
+
+Bridge:
+Reqires:
+Settings:
+
+Ethereum configuration:
+Reqires:
+Settings:
+
+Ever configuration:
+Reqires:
+Settings:
+
+Event factory:
+Reqires:
+Settings:
+
+Token proxy:
